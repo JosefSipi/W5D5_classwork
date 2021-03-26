@@ -13,3 +13,4 @@ class Actor < ApplicationRecord
     foreign_key: :director_id,
     primary_key: :id
 end
+
